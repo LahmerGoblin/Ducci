@@ -33,6 +33,6 @@ class Ducci {
         }
         zahlen[i] = Math.abs(zahlen[i] - tmp);
         System.out.println(zahlen[i]);
-        //return zahlen[i];
+        return zahlen[i];
     }
 }
