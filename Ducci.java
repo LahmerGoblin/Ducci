@@ -1,6 +1,4 @@
 /**
- * @author Arne Brüsch 4153615
- * @author Gerrit Sieker
  * Ducci - eine Klasse für die Duccifolge
  **/
 class Ducci {
