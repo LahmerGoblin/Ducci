@@ -23,7 +23,7 @@ class Ducci {
                 ducciSeq(zahlen);
             }
     }
-    public static void ducciStep(int zahlen[],int i,int tmp) {
+    public static int ducciStep(int zahlen[],int i,int tmp) {
         if ((i+1) < (zahlen.length)) {
             zahlen[i] = Math.abs(zahlen[i] - zahlen[i+1]);
             System.out.print(zahlen[i] + " ");
